@@ -1,0 +1,6 @@
+module ExternalPods {
+  umbrella header "ExternalPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

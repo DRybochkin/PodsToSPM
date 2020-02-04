@@ -1,0 +1,9 @@
+#use_frameworks!
+platform :ios, '9.3'
+use_modular_headers!
+
+target 'ExternalPods_Example' do
+  pod 'ExternalPods', :path => '../'
+
+  pod 'AFNetworking/Reachability', '3.2.1'#, :modular_headers => true
+end

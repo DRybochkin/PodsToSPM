@@ -1,0 +1,27 @@
+{
+  "name": "ExternalPods",
+  "version": "0.1.0",
+  "summary": "A short description of ExternalPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dmitry Rybochkin/ExternalPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dmitry Rybochkin": "dmitry.rybochkin@corp.mail.ru"
+  },
+  "source": {
+    "git": "https://github.com/Dmitry Rybochkin/ExternalPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ExternalPods/Classes/**/*",
+  "dependencies": {
+    "AFNetworking/Reachability": [
+      "~> 3.2.1"
+    ]
+  }
+}

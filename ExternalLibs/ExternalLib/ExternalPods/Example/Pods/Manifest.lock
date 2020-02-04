@@ -1,0 +1,24 @@
+PODS:
+  - AFNetworking/Reachability (3.2.1)
+  - ExternalPods (0.1.0):
+    - AFNetworking/Reachability (~> 3.2.1)
+
+DEPENDENCIES:
+  - AFNetworking/Reachability (= 3.2.1)
+  - ExternalPods (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  ExternalPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ExternalPods: 39544e762fcf16a7439f5e23d639f8605293f4d4
+
+PODFILE CHECKSUM: b228eae36bea2483154dd8083a05537e1f4ff3f4
+
+COCOAPODS: 1.8.4
